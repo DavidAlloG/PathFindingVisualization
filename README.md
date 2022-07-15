@@ -1,25 +1,16 @@
-# PathFindingVisualization
-Visualization of the process followed by A* algorithm to find the shortest path.
+# Project: Shortest Path Finder
+## Author: David García Allo
+## Date: 09/07/2022
 
-#### Author: David García Allo
-#### Date: 11/07/2022
+### Description: 
+Returns the shortest path between 'O' (start) and 'X' (end) if it has a solution and returns None if it hasn't.
+Also shows the intermediate steps in a terminal screen that remains opened till we press any key on that terminal screen.
 
-#### Description
-we can visualize all the neighbors considered and the moves made by the A* algorithm in the process of finding the shortest path between the start and end points.
-The first left-click adds the start point in the Node clicked, the next one the end point and the rest of clicks create barriers, it means non-available nodes.
+### Observations: 
+It is a great idea to include the path on the Queue and not only the neighbors like I did on the first attempt.
+Also the module curses is a good option to show the intermediate paths because we can clear it and print the next one after
+a sleep time, if we used the print commands we will have a lot of outputs and it won't be that easy to visualize.
 
-
-The right-click resets the node clicked (white node)
-
-
-The key 'space' initializes the algorithm.
-
-
-The key 'c' clears the all the grid (if algo is not running).
-
-
-Pygame module needed
-
-#### Ideas to improve
-- Maybe add some buttons that allows to execute algorithm, reset and kill the process
-- Add more path finding algorithms
+### Posible improvements: 
+1. Adapt it to be showed on a GUI and the posibility of creaete start, end and wall points with onClick functions.
+2. Insert an option that allows us to introduce different search algorithms.

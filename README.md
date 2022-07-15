@@ -6,6 +6,8 @@
 Returns the shortest path between 'O' (start) and 'X' (end) if it has a solution and returns None if it hasn't.
 Also shows the intermediate steps in a terminal screen that remains opened till we press any key on that terminal screen.
 
+Module curses needed.
+
 ### Observations: 
 It is a great idea to include the path on the Queue and not only the neighbors like I did on the first attempt.
 Also the module curses is a good option to show the intermediate paths because we can clear it and print the next one after

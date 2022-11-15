@@ -6,7 +6,7 @@ import pygame
 
 #this is just for the lols
 #Display settings
-WIDTH = 7000
+WIDTH = 7
 ROWS = 63
 ICON = 'labyrinth.ico'
 CAPTION = 'A* - Path Finding Algorithm'

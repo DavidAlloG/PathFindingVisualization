@@ -5,7 +5,7 @@ os.chdir(DIRPATH)
 import pygame
 
 #Display settings
-WIDTH = 700
+WIDTH = 650
 ROWS = 50
 ICON = 'labyrinth.ico'
 CAPTION = 'A* - Path Finding Algorithm'

@@ -15,8 +15,8 @@ pygame.display.set_icon(pygame.image.load(ICON))
 pygame.display.flip()
 
 #Define Colors RGB
-RED = (255,0,0); GREEN = (0,255,0); BLUE = (0,0,255)
-YELLOW = (255,255,0); WHITE = (255,255,255)
+RED = (255,0,15); GREEN = (0,255,0); BLUE = (0,0,255)
+YELLOW = (255,255,0); WHITE = (255,243,255)
 BLACK = (0,0,0); PURPLE = (128,0,128); ORANGE = (255,165,0)
 GREY = (128,128,128); TURQUOISE = (64,224,208)
 

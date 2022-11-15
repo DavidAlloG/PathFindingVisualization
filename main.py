@@ -4,7 +4,7 @@ DIRPATH = os.path.dirname(os.path.abspath(__file__))
 os.chdir(DIRPATH)
 import pygame
 
-#this is just for changing something
+#this is just for adding something
 #Display settings
 WIDTH = 7000
 ROWS = 63

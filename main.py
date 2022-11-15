@@ -4,9 +4,10 @@ DIRPATH = os.path.dirname(os.path.abspath(__file__))
 os.chdir(DIRPATH)
 import pygame
 
+#this is just for changing something
 #Display settings
-WIDTH = 700
-ROWS = 50
+WIDTH = 71
+ROWS = 63
 ICON = 'labyrinth.ico'
 CAPTION = 'A* - Path Finding Algorithm'
 WINDOW = pygame.display.set_mode((WIDTH,WIDTH))
